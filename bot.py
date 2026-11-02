@@ -22,7 +22,7 @@ async def hello(ctx):
     await ctx.send(f"Hello {ctx.author.name}! Hope you're having a great day.")
 
 # Run the bot securely using the environment variable token
-token = os.getenv('MTU0Nzk5MTUwNzU5OTEwMjA4Mw.Gd_Q1I.JbdYG2rHRgNtIEeBBTvtGU5CRIHrI5-0O3WqGs')
+token = os.getenv('')
 if token:
     bot.run(token)
 else:
